@@ -1,0 +1,1 @@
+curl -k -H 'Authorization: Splunk <your-hec-token>' http://127.0.0.1:8088/services/collector/event -d '{"event": {"name": "hello", "value": "世界"}}'
